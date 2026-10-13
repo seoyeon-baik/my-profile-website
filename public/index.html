@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="ko"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>백서연 | 데이터 분석 · AI 연구자</title><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}</style><meta name="description" content="백서연 — 데이터 분석과 인공지능에 관심이 있는 연구자. 데이터 분석, 머신러닝, 생성형 AI 프로젝트와 연락처."/><link rel="stylesheet" href="styles.css"/><link rel="stylesheet" href="custom.css"/><script src="script.js" defer></script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen flex flex-col"><header class="fixed top-0 inset-x-0 z-50 bg-surface/80 backdrop-blur-xl border-b border-outline-variant/30 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop flex items-center justify-between"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm group" data-path="home" href="#home"><img alt="Portfolio Monogram Logo" class="h-8 w-auto object-contain transition-transform group-hover:scale-105" src="assets/stitch-image-1.png"/><div class="flex flex-col"><span class="font-label-md text-label-md text-on-surface group-hover:text-primary transition-colors tracking-tight">백서연</span><span class="font-label-sm text-label-sm text-on-surface-variant font-normal hidden sm:inline-block">데이터 분석 · AI 연구자</span></div></a></div><nav class="hidden md:flex items-center gap-space-xs bg-surface-container-lowest/80 p-1.5 rounded-full border border-outline-variant/40 shadow-[0_1px_3px_0_rgba(15,23,42,0.04)]" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-full"><a aria-current="page" class="px-space-md py-1.5 transition-all bg-primary-container text-on-primary-container font-semibold rounded-full" data-path="home" href="#home">Home</a><a class="px-space-md py-1.5 rounded-full text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="about" href="#about">About</a><a class="px-space-md py-1.5 rounded-full text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="projects" href="#projects">Projects</a><a class="px-space-md py-1.5 rounded-full text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="contact" href="#contact">Contact</a></nav><div class="flex items-center gap-space-md"><div class="hidden sm:flex items-center gap-space-sm"><a class="px-5 py-2.5 rounded-full bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-all shadow-[0_4px_12px_rgba(37,99,235,0.25)] hover:scale-[1.02] active:scale-[0.98]" data-path="contact" href="#contact">Get in Touch</a></div><div class="flex items-center pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-container/20" src="assets/stitch-image-2.png"/></div><button aria-label="Toggle Mobile Menu" class="md:hidden p-2 text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-lg transition-colors" id="mobile-nav-toggle" aria-expanded="false" aria-controls="mobile-menu"><span class="material-symbols-outlined">menu</span></button></div></div><div class="hidden md:hidden border-t border-outline-variant/20 bg-surface/95 backdrop-blur-2xl px-margin py-space-md flex flex-col gap-space-xs shadow-lg" id="mobile-menu"><a class="px-4 py-3 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="home" href="#home">Home</a><a class="px-4 py-3 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="about" href="#about">About</a><a class="px-4 py-3 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="projects" href="#projects">Projects</a><a class="px-4 py-3 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="contact" href="#contact">Contact</a><div class="pt-space-sm mt-space-xs border-t border-outline-variant/30"><a class="w-full flex justify-center items-center py-3 rounded-full bg-primary-container text-on-primary font-label-md text-label-md" data-path="contact" href="#contact">Get in Touch</a></div></div></header><main class="w-full pt-20 flex-1 bg-background"><div class="flex flex-col w-full">
+<!-- SECTION 1: HOME (HERO) -->
+<section class="relative w-full py-16 md:py-24 lg:py-28 overflow-hidden" id="home">
+<!-- Ambient Blur Background Accents -->
+<div class="absolute -top-32 -left-20 w-96 h-96 rounded-full bg-primary-container/10 blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 -right-24 w-80 h-80 rounded-full bg-secondary-container/15 blur-3xl pointer-events-none"></div>
+<div class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop relative">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<!-- Left Column: Narrative & Actions -->
+<div class="lg:col-span-7 flex flex-col gap-space-md text-left">
+<p class="example-notice">사진, 학력, 경력, 성과 및 추가 연락처는 예시입니다. 프로젝트 설명과 링크도 예시로 표시했습니다.</p><!-- Meta Pill Tags -->
+<div class="flex flex-wrap items-center gap-space-xs">
+<span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+              ✨ Open to Work / 협업 문의 환영
+            </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">location_on</span>
+              Seoul, South Korea
+            </span>
+</div>
+<!-- Hero Headline -->
+<h1 class="font-headline-lg text-headline-lg md:text-display-hero text-on-surface font-headline-lg tracking-tight leading-tight">
+            데이터 분석과 인공지능에<br class="hidden sm:inline"/>
+            관심이 있는 연구자, <br/>
+<span class="text-primary-container">백서연</span>입니다.
+          </h1>
+<!-- Intro Paragraph -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            데이터 분석과 인공지능에 관심이 있는 연구자입니다. 전문 분야는 데이터 분석, 머신러닝, 생성형 AI입니다.
+          </p>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-xs">
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5" href="#projects">
+<span>프로젝트 둘러보기</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md hover:bg-surface-container hover:text-primary transition-all shadow-sm" href="#contact">
+<span>연락하기</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-highest hover:text-on-surface transition-all" download="baik-resume-example.txt" href="resume-example.txt">
+<span class="material-symbols-outlined text-[18px]">description</span>
+<span>이력서 다운로드</span>
+</a>
+</div>
+<!-- Key Stats Row -->
+<div class="grid grid-cols-3 gap-space-sm pt-space-lg max-w-xl">
+<div class="p-4 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col">
+<span class="font-headline-md text-headline-md text-primary font-headline-md">20+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">완료 프로젝트</span>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col">
+<span class="font-headline-md text-headline-md text-on-surface font-headline-md">5년차</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">실무 경력</span>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-lowest shadow-sm flex flex-col">
+<span class="font-headline-md text-headline-md text-secondary font-headline-md">99%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">클라이언트 만족도</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Avatar Display & Floating Badge -->
+<div class="lg:col-span-5 flex justify-center lg:justify-end relative mt-8 lg:mt-0">
+<div class="relative w-72 sm:w-84 md:w-96 aspect-square">
+<!-- Glow backdrop ring -->
+<div class="absolute inset-0 rounded-full bg-gradient-to-tr from-primary-container/20 to-secondary-container/30 blur-2xl transform scale-105"></div>
+<!-- Main Photo Container -->
+<div class="relative w-full h-full rounded-3xl overflow-hidden bg-surface-container-lowest shadow-xl p-2">
+<img alt="프로필 예시 사진" class="w-full h-full object-cover rounded-2xl transition-transform duration-500 hover:scale-105" src="assets/stitch-image-2.png"/>
+</div>
+<!-- Floating Badge: Experience -->
+<div class="absolute -bottom-4 -left-4 sm:bottom-4 sm:-left-6 px-4 py-3 rounded-2xl bg-surface-container-lowest shadow-xl flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-primary-container/15 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">verified</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">5+ Years Exp</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Data & AI</span>
+</div>
+</div>
+<!-- Floating Mini Tag -->
+<div class="absolute -top-3 -right-3 px-3 py-1.5 rounded-full bg-inverse-surface text-inverse-on-surface shadow-md font-label-sm text-label-sm flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+              Data & AI Researcher
+            </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: ABOUT -->
+<section class="w-full py-20 bg-surface-container-low" id="about">
+<div class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<!-- Section Title Header -->
+<div class="flex flex-col gap-space-xs mb-12">
+<div class="flex items-center gap-2">
+<span class="w-6 h-0.5 bg-primary-container"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-semibold">About Me</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">생각과 기술로 가치를 만드는 여정</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          데이터 분석, 머신러닝, 생성형 AI를 중심으로 데이터와 인공지능을 탐구합니다.
+        </p>
+</div>
+<!-- 3-Column Structured Information Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter-desktop">
+<!-- a. 전공 (Education & Major) -->
+<div class="p-8 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between transition-all hover:shadow-md hover:-translate-y-1">
+<div class="flex flex-col gap-4">
+<div class="w-12 h-12 rounded-xl bg-primary-container/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">school</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary uppercase font-semibold">Education & Major</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">컴퓨터공학 & 인터랙션 디자인</h3>
+<p class="font-label-md text-label-md text-on-surface-variant">B.S. in Computer Science & Interaction Design</p>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              알고리즘 및 HCI(인간-컴퓨터 상호작용) 복수 전공으로 기술적 실현 가능성과 인지 심리학적 UX 설계를 유기적으로 체득했습니다. 캡스톤 프로젝트 최우수상 및 단과대학 수석 졸업을 달성했습니다.
+            </p>
+</div>
+<div class="mt-6 pt-4 bg-surface-container-low p-3 rounded-lg flex items-center gap-2 text-on-surface font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-primary text-[18px]">workspace_premium</span>
+<span>우수 학업 성과 및 수석 졸업 (Summa Cum Laude)</span>
+</div>
+</div>
+<!-- b. 경력 (Experience & Career) -->
+<div class="p-8 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col transition-all hover:shadow-md hover:-translate-y-1">
+<div class="flex flex-col gap-4 mb-4">
+<div class="w-12 h-12 rounded-xl bg-secondary-container/20 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[28px]">work_history</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-semibold">Experience & Career</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">경력 및 프로덕트 여정</h3>
+</div>
+</div>
+<!-- Mini Timeline -->
+<div class="flex flex-col gap-5 relative pl-4 mt-2">
+<div class="absolute left-1 top-2 bottom-2 w-0.5 bg-surface-container-high"></div>
+<div class="relative flex flex-col">
+<div class="absolute -left-[19px] top-1.5 w-2.5 h-2.5 rounded-full bg-primary-container"></div>
+<span class="font-label-sm text-label-sm text-primary font-semibold">2022 - 현재</span>
+<h4 class="font-label-md text-label-md text-on-surface font-semibold">Senior Product Designer</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Tech Corp • 디자인 시스템 구축 및 핵심 UX 리드</span>
+</div>
+<div class="relative flex flex-col">
+<div class="absolute -left-[19px] top-1.5 w-2.5 h-2.5 rounded-full bg-outline-variant"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">2020 - 2022</span>
+<h4 class="font-label-md text-label-md text-on-surface font-semibold">UI/UX Designer & Frontend Dev</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Creative Studio • 웹 애플리케이션 프론트엔드 엔지니어링</span>
+</div>
+<div class="relative flex flex-col">
+<div class="absolute -left-[19px] top-1.5 w-2.5 h-2.5 rounded-full bg-outline-variant"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">2019 - 2020</span>
+<h4 class="font-label-md text-label-md text-on-surface font-semibold">Tech Startup Intern</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant">초기 프로토타입 테스팅 및 사용자 인터페이스 프로토타이핑</span>
+</div>
+</div>
+</div>
+<!-- c. 관심 분야 (Core Interests & Focus) -->
+<div class="p-8 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-between transition-all hover:shadow-md hover:-translate-y-1">
+<div class="flex flex-col gap-4">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed-dim/30 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[28px]">psychology</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-tertiary uppercase font-semibold">Core Interests & Focus</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">전문 분야</h3>
+</div>
+<div class="flex flex-col gap-3 mt-2">
+<div class="p-3 rounded-xl bg-surface-container-high/60 flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[20px] mt-0.5">widgets</span>
+<div>
+<h5 class="font-label-md text-label-md text-on-surface font-semibold">데이터 분석</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">데이터에서 패턴을 탐색하고 의미 있는 인사이트를 도출합니다.</p>
+</div>
+</div>
+<div class="p-3 rounded-xl bg-surface-container-high/60 flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[20px] mt-0.5">accessibility_new</span>
+<div>
+<h5 class="font-label-md text-label-md text-on-surface font-semibold">머신러닝</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">데이터를 학습하는 모델과 예측 방법을 탐구합니다.</p>
+</div>
+</div>
+<div class="p-3 rounded-xl bg-surface-container-high/60 flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-[20px] mt-0.5">smart_toy</span>
+<div>
+<h5 class="font-label-md text-label-md text-on-surface font-semibold">생성형 AI</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant">언어 모델과 생성형 인공지능의 활용 가능성을 연구합니다.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Tech & Tool Stack Badges -->
+<div class="mt-12 p-8 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-semibold">Tools & Technologies</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">자유자재로 다루는 핵심 기술 스택</h4>
+</div>
+<div class="flex flex-wrap gap-2.5">
+<span class="px-4 py-2 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-primary-container hover:text-on-primary transition-colors cursor-default shadow-sm">데이터 분석</span>
+<span class="px-4 py-2 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-primary-container hover:text-on-primary transition-colors cursor-default shadow-sm">머신러닝</span>
+<span class="px-4 py-2 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-primary-container hover:text-on-primary transition-colors cursor-default shadow-sm">생성형 AI</span>
+<span class="px-4 py-2 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-primary-container hover:text-on-primary transition-colors cursor-default shadow-sm">Python (예시)</span>
+<span class="px-4 py-2 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-primary-container hover:text-on-primary transition-colors cursor-default shadow-sm">pandas (예시)</span>
+<span class="px-4 py-2 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-primary-container hover:text-on-primary transition-colors cursor-default shadow-sm">scikit-learn (예시)</span>
+<span class="px-4 py-2 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-primary-container hover:text-on-primary transition-colors cursor-default shadow-sm">언어 모델 (예시)</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: PROJECTS -->
+<section class="w-full py-20 bg-background" id="projects">
+<div class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-2">
+<span class="w-6 h-0.5 bg-primary-container"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-semibold">Featured Projects</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">주요 프로젝트 및 케이스 스터디</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+            뉴스 데이터 분석, AI 챗봇 개발, 소셜미디어 분석 프로젝트를 소개합니다. 상세 설명과 연결 주소는 예시입니다.
+          </p>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">총 3개의 엄선된 케이스</span>
+</div>
+</div>
+<!-- 3 Project Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter-desktop">
+<!-- CARD 1: FinFlow -->
+<div class="project-card rounded-3xl bg-surface-container-lowest overflow-hidden shadow-sm flex flex-col justify-between group transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+<div>
+<!-- Visual Mockup Card Cover with Visual SVG Element -->
+<div class="relative w-full h-56 bg-gradient-to-br from-primary-container/10 via-surface-container to-surface-container-highest p-6 flex flex-col justify-between overflow-hidden">
+<div class="flex justify-between items-start">
+<span class="px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur font-label-sm text-label-sm text-primary font-semibold">
+                  News • Data Analysis
+                </span>
+<span class="material-symbols-outlined text-primary text-[24px]">trending_up</span>
+</div>
+<!-- Inline Data Visualization (Fintech Sparkline/Bar Chart under 2KB) -->
+<div class="w-full h-24 flex items-end justify-between gap-1 pt-4">
+<div class="w-1/6 bg-primary-container/20 h-30% rounded-t transition-all group-hover:h-50%"></div>
+<div class="w-1/6 bg-primary-container/40 h-50% rounded-t transition-all group-hover:h-70%"></div>
+<div class="w-1/6 bg-primary-container/30 h-40% rounded-t transition-all group-hover:h-60%"></div>
+<div class="w-1/6 bg-primary-container/60 h-75% rounded-t transition-all group-hover:h-90%"></div>
+<div class="w-1/6 bg-primary-container/50 h-60% rounded-t transition-all group-hover:h-75%"></div>
+<div class="w-1/6 bg-primary-container h-95% rounded-t transition-all group-hover:scale-y-105"></div>
+</div>
+</div>
+<!-- Card Content Body -->
+<div class="p-6 sm:p-8 flex flex-col gap-4">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors"><a class="project-main-link" href="https://example.com/?project=news-analysis" target="_blank" rel="noopener noreferrer">
+                뉴스 데이터 분석
+               <small class="example-tag">예시</small></a></h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                예시 설명: 뉴스 데이터를 수집·정리하고, 주요 키워드와 주제의 변화를 분석하는 프로젝트입니다.
+              </p>
+<!-- Tech stack tags -->
+<div class="flex flex-wrap gap-2 pt-2">
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">Python (예시)</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">pandas (예시)</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">텍스트 분석 (예시)</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">시각화 (예시)</span>
+</div>
+</div>
+</div>
+<!-- Bottom Links -->
+<div class="px-6 sm:px-8 pb-8 pt-2 flex items-center justify-between">
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-primary font-semibold hover:underline" href="https://example.com/?project=news-analysis" target="_blank" rel="noopener noreferrer">
+<span>Live Demo</span>
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-on-surface-variant hover:text-on-surface" href="https://example.com/?project=news-analysis" target="_blank" rel="noopener noreferrer">
+<span>Case Study</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- CARD 2: OmniSpace -->
+<div class="project-card rounded-3xl bg-surface-container-lowest overflow-hidden shadow-sm flex flex-col justify-between group transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+<div>
+<!-- Visual Mockup Card Cover with Visual SVG Element -->
+<div class="relative w-full h-56 bg-gradient-to-br from-secondary-container/20 via-surface-container to-surface-container-high p-6 flex flex-col justify-between overflow-hidden">
+<div class="flex justify-between items-start">
+<span class="px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur font-label-sm text-label-sm text-secondary font-semibold">
+                  Chatbot • Generative AI
+                </span>
+<span class="material-symbols-outlined text-secondary text-[24px]">view_in_ar</span>
+</div>
+<!-- 3D Grid / Isometric Wireframe Mockup Visual under 2KB -->
+<div class="w-full flex items-center justify-center pt-2">
+<svg class="w-32 h-24 text-secondary/70 group-hover:scale-110 transition-transform duration-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 100 80">
+<polygon fill="currentColor" fill-opacity="0.1" points="50,5 90,25 50,45 10,25"></polygon>
+<polygon fill="currentColor" fill-opacity="0.2" points="10,25 50,45 50,75 10,55"></polygon>
+<polygon fill="currentColor" fill-opacity="0.3" points="90,25 50,45 50,75 90,55"></polygon>
+<circle cx="50" cy="25" fill="currentColor" r="4"></circle>
+</svg>
+</div>
+</div>
+<!-- Card Content Body -->
+<div class="p-6 sm:p-8 flex flex-col gap-4">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors"><a class="project-main-link" href="https://example.com/?project=ai-chatbot" target="_blank" rel="noopener noreferrer">
+                AI 챗봇 개발
+               <small class="example-tag">예시</small></a></h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                예시 설명: 생성형 AI를 활용해 사용자의 질문에 응답하는 대화형 챗봇을 개발하는 프로젝트입니다.
+              </p>
+<!-- Tech stack tags -->
+<div class="flex flex-wrap gap-2 pt-2">
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">Python (예시)</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">언어 모델 (예시)</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">대화 설계 (예시)</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">생성형 AI (예시)</span>
+</div>
+</div>
+</div>
+<!-- Bottom Links -->
+<div class="px-6 sm:px-8 pb-8 pt-2 flex items-center justify-between">
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-secondary font-semibold hover:underline" href="https://example.com/?project=ai-chatbot" target="_blank" rel="noopener noreferrer">
+<span>Live Demo</span>
+<span class="material-symbols-outlined text-[18px]">open_in_new</span>
+</a>
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-on-surface-variant hover:text-on-surface" href="https://example.com/?project=ai-chatbot" target="_blank" rel="noopener noreferrer">
+<span>GitHub</span>
+<span class="material-symbols-outlined text-[18px]">code</span>
+</a>
+</div>
+</div>
+<!-- CARD 3: Pulse Health -->
+<div class="project-card rounded-3xl bg-surface-container-lowest overflow-hidden shadow-sm flex flex-col justify-between group transition-all duration-300 hover:shadow-xl hover:-translate-y-2">
+<div>
+<!-- Visual Mockup Card Cover with Visual SVG Element -->
+<div class="relative w-full h-56 bg-gradient-to-br from-tertiary-fixed/30 via-surface-container to-surface-container-highest p-6 flex flex-col justify-between overflow-hidden">
+<div class="flex justify-between items-start">
+<span class="px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur font-label-sm text-label-sm text-tertiary font-semibold">
+                  Social Media • Analytics
+                </span>
+<span class="material-symbols-outlined text-tertiary text-[24px]">favorite</span>
+</div>
+<!-- Pulse Waveform SVG Graphic under 2KB -->
+<div class="w-full flex items-center justify-center pt-4">
+<svg class="w-full h-16 text-tertiary" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 200 40">
+<path class="transition-all duration-700 group-hover:stroke-primary" d="M0,20 L50,20 L65,5 L75,35 L90,10 L105,25 L115,20 L200,20"></path>
+</svg>
+</div>
+</div>
+<!-- Card Content Body -->
+<div class="p-6 sm:p-8 flex flex-col gap-4">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors"><a class="project-main-link" href="https://example.com/?project=social-media-analysis" target="_blank" rel="noopener noreferrer">
+                소셜미디어 분석
+               <small class="example-tag">예시</small></a></h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                예시 설명: 소셜미디어 게시글의 키워드와 감성을 분석해 관심사와 트렌드를 살펴보는 프로젝트입니다.
+              </p>
+<!-- Tech stack tags -->
+<div class="flex flex-wrap gap-2 pt-2">
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">Python (예시)</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">감성 분석 (예시)</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">키워드 분석 (예시)</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">Python</span>
+</div>
+</div>
+</div>
+<!-- Bottom Links -->
+<div class="px-6 sm:px-8 pb-8 pt-2 flex items-center justify-between">
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-tertiary font-semibold hover:underline" href="https://example.com/?project=social-media-analysis" target="_blank" rel="noopener noreferrer">
+<span>Case Study</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-on-surface-variant hover:text-on-surface" href="https://example.com/?project=social-media-analysis" target="_blank" rel="noopener noreferrer">
+<span>App Store</span>
+<span class="material-symbols-outlined text-[18px]">storefront</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: CONTACT -->
+<section class="w-full py-20 bg-surface-container-low" id="contact">
+<div class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<!-- Section Title -->
+<div class="flex flex-col gap-space-xs mb-12">
+<div class="flex items-center gap-2">
+<span class="w-6 h-0.5 bg-primary-container"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-semibold">Get in Touch</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">함께 새로운 가치를 만들어 갈 준비가 되셨나요?</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          데이터 분석, 머신러닝, 생성형 AI 관련 연구와 협업 문의는 이메일로 연락해 주세요.
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop">
+<!-- Left: Direct Contact Information Cards & Social Icons -->
+<div class="lg:col-span-5 flex flex-col gap-6">
+<!-- Email Card with Copy button -->
+<div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-primary-container/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">mail</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Email Address</span>
+<a class="font-label-md text-label-md text-on-surface font-semibold select-all" id="email-text" href="mailto:baik@example.com">baik@example.com</a>
+</div>
+</div>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-high hover:bg-primary-container hover:text-on-primary text-on-surface font-label-sm text-label-sm transition-colors flex items-center gap-1" id="copy-email-btn" title="이메일 복사" type="button">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+<span id="copy-text">복사</span>
+</button>
+</div>
+<!-- Phone Card -->
+<div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-secondary-container/20 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">call</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Phone</span>
+<a class="font-label-md text-label-md text-on-surface font-semibold hover:text-primary transition-colors" href="tel:+821012345678">
+                +82 10-1234-5678
+              </a>
+</div>
+</div>
+<!-- Location Card with Google Maps Pipeline trigger -->
+<div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-4">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed-dim/30 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[24px]">pin_drop</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Office & Base</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Gangnam, Seoul, South Korea</span>
+</div>
+</div>
+<!-- Map Container -->
+<div class="w-full h-36 bg-cover bg-center rounded-xl overflow-hidden shadow-inner flex items-center justify-center bg-surface-container-high text-on-surface-variant" data-location="Gangnam, Seoul" style="background-image: url('assets/stitch-image-3.png')">
+<div class="px-3 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur font-label-sm text-label-sm flex items-center gap-1.5 shadow-sm">
+<span class="material-symbols-outlined text-primary text-[16px]">explore</span>
+<span>Gangnam Studio</span>
+</div>
+</div>
+</div>
+<!-- Social Icon Media Links -->
+<div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col gap-3">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase font-semibold">Social Networks</span>
+<div class="flex flex-wrap gap-2.5">
+<a class="px-3.5 py-2 rounded-xl bg-surface-container text-on-surface font-label-sm text-label-sm hover:bg-primary-container hover:text-on-primary transition-all flex items-center gap-1.5" href="https://github.com/" target="_blank" rel="noopener noreferrer" title="GitHub 예시 링크">
+<span>GitHub</span>
+<span class="material-symbols-outlined text-[14px]">north_east</span>
+</a>
+<a class="px-3.5 py-2 rounded-xl bg-surface-container text-on-surface font-label-sm text-label-sm hover:bg-primary-container hover:text-on-primary transition-all flex items-center gap-1.5" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" title="LinkedIn 예시 링크">
+<span>LinkedIn</span>
+<span class="material-symbols-outlined text-[14px]">north_east</span>
+</a>
+<a class="px-3.5 py-2 rounded-xl bg-surface-container text-on-surface font-label-sm text-label-sm hover:bg-primary-container hover:text-on-primary transition-all flex items-center gap-1.5" href="https://www.behance.net/" target="_blank" rel="noopener noreferrer" title="Behance 예시 링크">
+<span>Behance</span>
+<span class="material-symbols-outlined text-[14px]">north_east</span>
+</a>
+<a class="px-3.5 py-2 rounded-xl bg-surface-container text-on-surface font-label-sm text-label-sm hover:bg-primary-container hover:text-on-primary transition-all flex items-center gap-1.5" href="https://x.com/" target="_blank" rel="noopener noreferrer" title="Twitter / X 예시 링크">
+<span>Twitter / X</span>
+<span class="material-symbols-outlined text-[14px]">north_east</span>
+</a>
+<a class="px-3.5 py-2 rounded-xl bg-surface-container text-on-surface font-label-sm text-label-sm hover:bg-primary-container hover:text-on-primary transition-all flex items-center gap-1.5" href="https://dribbble.com/" target="_blank" rel="noopener noreferrer" title="Dribbble 예시 링크">
+<span>Dribbble</span>
+<span class="material-symbols-outlined text-[14px]">north_east</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Right: Quick Contact Message Form -->
+<div class="lg:col-span-7">
+<div class="p-8 sm:p-10 rounded-3xl bg-surface-container-lowest shadow-sm">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">메시지 보내기</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-6">
+              아래 양식을 작성하면 기본 메일 앱의 작성창이 열립니다. 직접 전송해 주세요.
+            </p>
+<form class="space-y-4" id="contact-form">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-sm text-label-sm text-on-surface font-medium" for="contact-name">성함 (Name)</label>
+<input class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container transition-all" id="contact-name" placeholder="홍길동" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-sm text-label-sm text-on-surface font-medium" for="contact-email">이메일 (Email)</label>
+<input class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container transition-all" id="contact-email" placeholder="example@domain.com" required="" type="email"/>
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-sm text-label-sm text-on-surface font-medium" for="contact-subject">문의 제목 (Subject)</label>
+<input class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container transition-all" id="contact-subject" placeholder="새 프로젝트 협업 제안 또는 커피챗 문의" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-sm text-label-sm text-on-surface font-medium" for="contact-message">문의 내용 (Message)</label>
+<textarea class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-on-surface font-body-sm text-body-sm placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container transition-all resize-none" id="contact-message" placeholder="프로젝트의 개요, 일정 및 예상 범위를 자유롭게 남겨주세요." required="" rows="5"></textarea>
+</div>
+<div class="pt-2">
+<button class="w-full py-4 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md font-semibold hover:bg-primary transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2 group" type="submit">
+<span>메시지 보내기</span>
+<span class="material-symbols-outlined text-[18px] transition-transform group-hover:translate-x-1">send</span>
+</button>
+</div>
+<div class="hidden text-center py-2 font-label-sm text-label-sm text-primary font-semibold" id="form-feedback" role="status" aria-live="polite">
+                메일 작성창을 요청했습니다. 메일 앱에서 내용을 확인하고 전송해 주세요.
+              </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive JavaScript for Copy & Form Feedback -->
+
+</div></main><footer class="w-full bg-surface-container-lowest border-t border-outline-variant/30 py-16"><div class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop"><div class="grid grid-cols-1 md:grid-cols-12 gap-gutter-desktop items-start pb-12 border-b border-outline-variant/20"><div class="md:col-span-6 space-y-space-sm"><div class="flex items-center gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface">백서연</span><span class="px-2.5 py-0.5 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm font-semibold">Available for hire</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-md">데이터 분석과 인공지능에 관심이 있는 연구자. 데이터 분석, 머신러닝, 생성형 AI를 탐구합니다.</p></div><div class="md:col-span-3 space-y-space-sm"><h4 class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">Navigation</h4><ul class="space-y-space-xs font-body-sm text-body-sm"><li data-path="home"><a class="text-on-surface-variant hover:text-primary transition-colors" href="#home">Home</a></li><li data-path="about"><a class="text-on-surface-variant hover:text-primary transition-colors" href="#about">About</a></li><li data-path="projects"><a class="text-on-surface-variant hover:text-primary transition-colors" href="#projects">Featured Projects</a></li><li data-path="contact"><a class="text-on-surface-variant hover:text-primary transition-colors" href="#contact">Contact & Bookings</a></li></ul></div><div class="md:col-span-3 space-y-space-sm"><h4 class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">Presence</h4><ul class="space-y-space-xs font-body-sm text-body-sm"><li><a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1.5" href="https://github.com/" target="_blank" rel="noopener noreferrer" title="GitHub 예시 링크"><span>GitHub</span><span class="material-symbols-outlined text-[16px]">north_east</span></a></li><li><a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1.5" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" title="LinkedIn 예시 링크"><span>LinkedIn</span><span class="material-symbols-outlined text-[16px]">north_east</span></a></li><li><a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1.5" href="https://example.com/?profile=baik" target="_blank" rel="noopener noreferrer" title="Read.cv 예시 링크"><span>Read.cv</span><span class="material-symbols-outlined text-[16px]">north_east</span></a></li><li><a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1.5" href="https://dribbble.com/" target="_blank" rel="noopener noreferrer" title="Dribbble 예시 링크"><span>Dribbble</span><span class="material-symbols-outlined text-[16px]">north_east</span></a></li></ul></div></div><div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant font-label-sm text-label-sm"><p>© 2026 백서연. Data Analysis · Machine Learning · Generative AI.</p><div class="flex items-center gap-space-lg"><a class="hover:text-on-surface transition-colors" href="https://example.com/" target="_blank" rel="noopener noreferrer" title="예시 링크">Privacy Policy</a><a class="hover:text-on-surface transition-colors" href="https://example.com/" target="_blank" rel="noopener noreferrer" title="예시 링크">Colophon</a><a class="hover:text-on-surface transition-colors" href="https://example.com/" target="_blank" rel="noopener noreferrer" title="예시 링크">RSS Feed</a></div></div></div></footer></body></html>

@@ -1,0 +1,13 @@
+{
+  "name": "personal-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static profile website with a dependency-free local Node.js server",
+  "scripts": {
+    "start": "node server.cjs",
+    "dev": "node server.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
